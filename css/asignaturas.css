@@ -1,0 +1,43 @@
+
+
+ a:link {
+   color: rgb(255, 255, 255);
+ }
+
+ a:visited {
+   color: rgb(255, 255, 255);
+ }
+
+
+
+ #descargarApuntes {
+   text-align: center;
+   font-size: 2.5em;
+   margin-top: 70px;
+ }
+
+
+
+ .contenedor {
+   display: flex;
+   gap: 10px;
+   padding: 5px;
+
+ }
+
+ .caja {
+   flex: 1;
+   padding: 25px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   background-color: #3B6B8E;
+   border: 1px solid #000;
+
+ }
+
+
+ @media (max-width: 768px) {
+   .contenedor {
+     flex-direction: column;
+   }
+ }
