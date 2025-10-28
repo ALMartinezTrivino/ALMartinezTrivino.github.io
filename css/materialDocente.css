@@ -10,15 +10,26 @@ a:visited {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 5px;
+    padding-left: 30%;
     margin-left: 5px;
     margin-right: 5px;
     text-align: center;
 }
 
 .caja {
-    background-color: #3B6B8E;
-    border: 1px solid #000;
+    background-color: #1f3a57;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    width: 250px;
+    text-align: left;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
 
+.caja:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
 }
 
 
@@ -26,5 +37,17 @@ a:visited {
     .contenedor {
         flex-direction: column;
         grid-template-columns: repeat(1, 1fr);
+        padding-left: 1%;
     }
+
+    .caja {
+    background-color: #1f3a57;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    width: 94%;
+    text-align: left;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
 }

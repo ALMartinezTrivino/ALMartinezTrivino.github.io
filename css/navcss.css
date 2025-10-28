@@ -19,7 +19,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background: #2E5984;
+    background: #162d4b;
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
@@ -65,7 +65,7 @@ nav ul li a:hover {
     nav ul {
         display: none;
         flex-direction: column;
-        background: #2E5984;
+        background: #162d4b;
         position: absolute;
         top: 60px;
         right: 20px;
